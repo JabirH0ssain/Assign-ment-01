@@ -1,0 +1,26 @@
+.ban-img{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.h3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: white;
+}
+
+.h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
