@@ -91,7 +91,7 @@
     font-size: 50px;
     border-radius: 3%;
     background-image: linear-gradient(to right,
-    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,0.9) 20%,
     rgba(0,0,0,0.7) 40%,
     rgba(0,0,0,0.4) 70%,
     rgba(0,0,0,0) 100%);
@@ -118,4 +118,24 @@
     margin-left: 120px;
     line-height: 32px;
     font-family:'Inter', sans-serif;
+}
+
+ .btn-ovr{
+    position: absolute;
+    cursor: pointer; 
+    top: 73%;
+    left: 8%;
+    color: white;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-family:'Inter', sans-serif;;
+    
+    
+}
+
+.img-24{
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 5%;
+
 }
