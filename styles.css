@@ -144,9 +144,9 @@
 
 
 .t-d-p{
-    width: 1400px;
+    width: 1600px;
     height: 580px;
-    margin-left: 13%;
+    margin-left: 7%;
     margin-top: 6%;
     border: 1px solid white;
     border-radius: 15px;
@@ -175,4 +175,58 @@
     padding: 16px 32px;
     margin-left: 44.8%;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Offer and photo part */
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-top: 50px;
+    
+}
+
+.child-2{
+    padding: 30px;
+    border: 16px solid red;
+    border-radius: 50%;
+    margin-right: 300px;
+}
+
+.child-2>img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.child-1{
+    margin-top: 80px;
+}
+
+.h3-4{
+    font-family:'Inter', sans-serif;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 550;
+
+}
+
+.h1-4{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.p-4{
+    font-family:'Inter', sans-serif;
+    color: #07021199;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: px;
+
 }
