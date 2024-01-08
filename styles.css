@@ -255,3 +255,32 @@
 .child-3 > img{
     margin-top: 40px;
 }
+
+
+/* Category Part */
+
+.category-1{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.h4-5{
+    font-family:'Inter', sans-serif;
+    color:#f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.h1-5{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.p-5{
+    font-family:'Inter', sans-serif;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
