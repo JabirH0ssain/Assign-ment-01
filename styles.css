@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
  /* banner part */
@@ -261,7 +261,7 @@
 
 .category-1{
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 .h4-5{
@@ -289,12 +289,80 @@
     display: flex;
     gap: 35px;
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 .category-2b{
     display: flex;
     gap: 35px;
     margin-top: 40px;
-    margin-left: 200px;
+    margin-left: 260px;
 }
+
+
+/* Newsletter Part */
+
+.newsletter{
+    width: 1600px;
+    height: 615px;
+    margin-left: 7%;
+    margin-top: 6%;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #FF00000D;
+}
+
+.nsl{
+    margin-left: 720px;
+    margin-top: 100px;
+}
+
+.dsnsl{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.snsl{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.p-snsl{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+}
+
+
+.srch{
+    float: left;
+    margin-left: 470px;
+}
+.search{
+    font-family:'Inter', sans-serif;;
+    width: 450px;
+    height: 72px;
+    background: white;
+    margin-top: 40px;
+    color: rgba(7, 2, 17, 0.30);
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.btn-nsl{
+    font-family:'Inter', sans-serif;
+    width: 210px;
+    height: 72px;
+    background:  #FF0000;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-right-radius: 50px ;
+    border-top-right-radius: 50px ;
+    cursor: pointer;
+}
+
