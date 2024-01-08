@@ -4,12 +4,13 @@
  /* banner part */
 
 .ban-img{
+    background-image: linear-gradient(rgba());
     position: relative;
     width: 80%;
     text-align: center;
     margin-left: 10%;
     margin-top: 3%;
-    filter: brightness(55%);
+    filter: brightness(55%);  
 }
 
 .h3{
@@ -65,4 +66,56 @@
 .nyp-img{
     height: 500px;
     margin-top: 60px;
+}
+
+/* Next Part of body section */
+
+.vector-img{
+    background-image: url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: 15%;
+    height: 600px;
+    width: 1440px;
+    position: relative;
+    
+}
+
+.vector-img > .h1-img{
+    position: absolute;
+    height: 600px;
+    width: 1350px;
+    margin-top: 0px;
+    margin-bottom: 100%;
+    color: white;
+    font-size: 50px;
+    border-radius: 3%;
+    background-image: linear-gradient(to right,
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,0.7) 40%,
+    rgba(0,0,0,0.4) 70%,
+    rgba(0,0,0,0) 100%);
+    
+}
+
+.txt-ovr{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 120px;
+    line-height: 80px;
+    letter-spacing: 7px;
+    font-family: 'Merriweather', serif;
+}
+
+.para-ovr{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 330px;
+    margin-left: 120px;
+    line-height: 32px;
+    font-family:'Inter', sans-serif;
 }
